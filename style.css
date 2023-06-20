@@ -1,4 +1,13 @@
-/* Write your CSS here! */
+.primary-content {
+ display: grid;
+    grid-template-columns: 200px 500px 50px 50px;
+    gap: 1px;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    "sidebar content"
+    "footer  footer";
+  }
+ 
 
 /* Do not change the CSS below. */
 
